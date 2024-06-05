@@ -56,24 +56,6 @@ Characters
     GET /api/characters - Get all characters for the logged-in user
     DELETE /api/characters/:id - Delete a character by ID
 
-Project Structure
-
-
-
-.
-├── middleware
-│   └── auth.js         # Authentication middleware
-├── models
-│   └── User.js         # User model
-│   └── Character.js    # Character model
-├── routes
-│   └── auth.js         # Authentication routes
-│   └── characters.js   # Character routes
-├── .env                # Environment variables
-├── .gitignore          # Git ignore file
-├── package.json        # Project metadata and dependencies
-├── server.js           # Entry point of the application
-└── README.md           # Project documentation
 
 Contributing
 
