@@ -20,13 +20,11 @@ This is the backend service for the HeroBase mobile application, built with Node
 ### Installation
 
 1. Clone the repository:
-   ```sh
+   ```
    git clone https://github.com/your-username/herobase-backend.git
    cd herobase-backend
 
 Install dependencies:
-
-sh
 
 npm install
 
@@ -41,7 +39,7 @@ Running the Server
 
 To start the development server, run:
 
-sh
+
 
 npm start
 
@@ -60,7 +58,7 @@ Characters
 
 Project Structure
 
-bash
+
 
 .
 ├── middleware
