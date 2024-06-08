@@ -1,28 +1,31 @@
-const mongoose = require('mongoose');
+// This is the Character model. It defines the schema for a character in the database.
 
-const CharacterSchema = new mongoose.Schema({
-  userId: {
+
+const mongoose = require('mongoose'); // Import mongoose
+
+const CharacterSchema = new mongoose.Schema({ // Create character schema
+  userId: { // User ID
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
   },
-  name: {
+  name: { // Character name
     type: String,
     required: true
   },
-  ancestry: {
+  ancestry: { // Character ancestry
     type: String,
     required: true
   },
-  background: {
+  background: { // Character background
     type: String,
     required: true
   },
-  characterClass: {
+  characterClass: { // Character class
     type: String,
     required: true
   },
-  stats: {
+  stats: { // Character stats
     strength: {
       type: Number,
       required: true
